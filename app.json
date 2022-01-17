@@ -1,0 +1,30 @@
+{
+  "name": "lessthan",
+  "description": "lessthan",
+  "keywords": [
+    "lessthan"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "默认vless，请保持默认不要修改。",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "从https://www.uuidgenerator.net/这个网址去生成一个UUID密码，然后填在下方的方框里",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/vless",
+      "required": true
+    }
+  },
+  "website": "https://github.com/likeflowercome/lessthan",
+  "repository": "https://github.com/likeflowercome/lessthan",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
